@@ -8,5 +8,6 @@
 ##### using C++ ,OpenCV2 and Libtorch (ie,Pytorch C++)
 
 #### sample code of loading the image data using OpenCV and converting it to torch tensors are showcased on sample.cpp file and build using cmake .
+##### Used std_C++14 and cmake -DCMAKE_PREFIX_PATH=~/installation or directory path of/libtorch ..for making the executable file. for more details its better to check on the Libtorch , OpenCV2 and cmake documentations.
 
 ![](screen.png)
