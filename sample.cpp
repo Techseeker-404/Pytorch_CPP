@@ -13,8 +13,8 @@ int main(int argc ,char **argv){              //passing or providing command lin
         std::cout << img_tensor << "\n";            //printing the torch tensors of respective images
         cv::imshow("Image",img);            //cv showing the image through its window
 
-        int k =  cv::waitKey(3000);     //giving a 3 second time delay for showing the window of a CV image and move onto next image.
-        if(k == 27){
+                                                     //int k =  cv::waitKey(700); 
+        if(cv::waitKey(700) && 0xff == 27){   //giving a 0.7 second time delay for showing the window of a CV image and move onto next image.
 
             cv::destroyAllWindows();
             break;
